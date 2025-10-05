@@ -1,60 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon profile - Mika Diallo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 style="text-align: center;">Bienvenu a NASSOUBA TECH </h1>
-    <strong>TITRE DE STRONG </strong> <br/>  
-    <hr>
-    <em>Text en italique</em>
+    <div class="container">
+        <header>
+            <div class="profile-mk">MK</div>
+            <h1>MIKA DIALLO</h1>
+            <p class="tagline">Développeur Web Full Stack</p>
+        </header>
 
-    <ol>
-        <li>Élément 1</li>
-        <li>Élément 2</li>
-    </ol> 
+        <main>
+            <section id="about">
+                <h2>A propos de moi</h2>
+                <p class="about-text">
+                    Passionné par le développement web depuis plus de 5 ans,
+                    je crée des applications modernes et performantes.
+                    J'aime résoudre des problèmes complexes et apprendre de nouvelles technologies.
+                    Mon objectif est de créer des expériences utilisateur
+                    exceptionnelles tout en maintenant un code propre et maintenable.
+                </p>
+            </section>
 
-    <a href="https://example.com">Cliquez ici</a>
-    <br>
+            <section id="skills">
+                <h2>Compétences</h2>
+                <div class="skills">
+                    <div class="skill-item">
+                        <div class="skill-name">HTML/CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">React</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Node.js</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <img src="image.png" alt="Description de l'image" width="100px" height="100px">
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <strong>Email</strong><br>
+                            jean.dupont@email.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <strong>Téléphone</strong><br>
+                            +33 6 12 34 56 78
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Localisation</strong><br>
+                            Paris, France
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <table>
-    <thead>
-        <tr>
-            <th>Nom</th>
-            <th>Âge</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Alice</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>Alice</td>
-            <td>25</td>
-        </tr>
-        
-        
-        
-        
-
-    </tbody>
-</table>
-
-
-
-<form action="">
-    <label for="email">Email *</label>
-    <input type="email" id="email">
-<br><br>
-    <label for="password">Mot de passe *</label>
-    <input type="password" id="password">
-<br><br>
-    <button>Envoyer     </button>
-</form>
+        <footer>
+            <p>&copy; 2025 Jean Dupont - Tous droits réservés</p>
+            <div class="social-links">
+                <a href="#" title="LinkedIn">💼</a>
+                <a href="#" title="GitHub">💻</a>
+                <a href="#" title="Twitter">🐦</a>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
